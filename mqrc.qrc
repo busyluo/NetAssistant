@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/mqrc">
+        <file>mqrc/NetOff.png</file>
+        <file>mqrc/NetOn.png</file>
+    </qresource>
+</RCC>

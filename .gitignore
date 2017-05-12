@@ -1,0 +1,10 @@
+*.user*
+*.o
+Makefile
+mNetAssist
+moc_*
+ui_*.h
+*~
+core
+*.core
+
