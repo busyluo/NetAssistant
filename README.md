@@ -9,4 +9,5 @@ A network debugging assistant based on Qt GUI.
 5. Group chat mode；
 6. Multi-language;
 
-
+## Getting Started
+This project is built on Qt5. 
