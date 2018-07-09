@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qrc/NetOff.png</file>
+        <file>qrc/NetOn.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>language/Chinese.qm</file>
+        <file>language/English.qm</file>
+    </qresource>
+</RCC>
