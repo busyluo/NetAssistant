@@ -1,4 +1,4 @@
-#ifndef MDEFINE_H
+﻿#ifndef MDEFINE_H
 #define MDEFINE_H
 
 //定义通讯工作模式
