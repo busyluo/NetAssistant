@@ -22,7 +22,7 @@ void TcpServer::acceptNewClient()
 
    tcpClientSocketList.append(tcpClientSocket);   //add client
 
-   //send the client address and descriptor to mNetAssistWidget
+   //send the client address and descriptor to NetAssistWidget
    QString peerPortStr = QString::number(tcpClientSocket->peerPort());
    QString rdClientAddress_Port =  tcpClientSocket->peerAddress().toString()+":"+peerPortStr;
    emit addClientLink(rdClientAddress_Port,socketDescriptor);
@@ -66,7 +66,7 @@ void TcpServer::clientDisconnected()
         {
             QString peerPortStr = QString::number(item->peerPort());
             QString rdClientAddress_Port = item->peerAddress().toString()+":"+peerPortStr;
-             //send the client address and descriptor to mNetAssistWidget
+             //send the client address and descriptor to NetAssistWidget
             emit removeClientLink(rdClientAddress_Port,item->socketDescriptor());
 
             tcpClientSocketList.removeAt(i); //remove Client

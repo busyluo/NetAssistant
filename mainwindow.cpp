@@ -700,7 +700,7 @@ void MainWindow::on_StartRcvFile_clicked(bool checked)
                 ui->StartRcvFile->setChecked(false);
                 return;
             }
-            ui->ReceiveTextEdit->setPlainText(tr("接收数据保存到文件：\n")+CurPath+tr("\n"));
+            ui->ReceiveTextEdit->setPlainText(tr("接收数据保存到文件：\n") + CurPath + "\n");
             on_pBtnResetCnt_clicked();
         }else{
             ui->StartRcvFile->setChecked(false);

@@ -1,7 +1,6 @@
 ﻿#include <QApplication>
 #include <QTextCodec>
 
-//#include "mNetAssistWidget.h"
 #include "mainwindow.h"
 
 int main(int argc, char *argv[])
@@ -12,7 +11,6 @@ int main(int argc, char *argv[])
 
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));       //QT5
 
-    // mNetAssistWidget w;
     MainWindow w;
     w.show();
     return a.exec();
