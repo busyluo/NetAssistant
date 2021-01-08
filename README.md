@@ -11,3 +11,11 @@ A network debugging assistant based on Qt GUI.
 
 ## Getting Started
 This project is built on Qt5. 
+
+### Build
+```
+git clone https://github.com/busyluo/NetAssistant.git
+cd NetAssistant
+qmake
+make
+```
