@@ -27,7 +27,7 @@ public:
     int TcpClientLinkCnt;
 
 signals:
-    void sendDataToClient(char *msg,int length,int socketDescriptor,int socketDescriptorEx);
+    void sendDataToClient(char *msg, int length, int socketDescriptor, int socketDescriptorEx);
 
 private slots:
     void on_actionEnglish_triggered();
@@ -52,10 +52,10 @@ private slots:
     //=====TCP Server=====
     bool slotTryCreateTcpServer();
     void slotDeleteTcpServer();
-    void tcpServerDataReceived(char* msg,int length,int socketDescriptorEx);
+    void tcpServerDataReceived(char* msg, int length, int socketDescriptorEx);
 
-    void addClientLink(QString clientAddrPort,int socketDescriptor);
-    void removeClientLink(QString clientAddrPort,int socketDescriptor);
+    void addClientLink(QString clientAddrPort, int socketDescriptor);
+    void removeClientLink(QString clientAddrPort, int socketDescriptor);
     void toSendData();
     void toSendFile();
     void insertDateTimeInRcvDisp();
